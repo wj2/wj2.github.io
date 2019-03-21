@@ -1,13 +1,64 @@
+/* Title */
+h1 a {
+    color: #000305;
+}
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Page org */
 body {
     background: #FFFFFF;
     color: #000305;
     font-size: 90%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.429;
-    margin: 10%;
     padding: 0;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: left;
-    max-width: 420pt
+    max-width: 420pt;
+    min-height: 80vh;
+    position: relative;
+}
+
+#content {
+    padding-bottom: 5rem;
+}
+
+footer {
+    bottom: 0;
+    height: 2.5rem;
+    position: absolute;
+    vertical-align: bottom;
+}
+
+/* Nav bar */
+#navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7
+}
+
+.navitem {
+    float: left;
+    width: 33.33%;
+}
+
+.navitem a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.navitem a:hover {
+  background-color: #9BD2E3;
 }
 
