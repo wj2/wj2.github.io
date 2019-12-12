@@ -19,10 +19,15 @@ body {
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: left;
+    text-align: left; 
     max-width: 420pt;
     min-height: 80vh;
     position: relative;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #content {
