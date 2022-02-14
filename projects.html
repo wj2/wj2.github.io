@@ -31,106 +31,72 @@
     <h1>Research</h1>
     
 
-    <h2>Reliable neural representations</h2>
-<p>I have a broad interest in how the neural code can be made robust to the
-widespread response variability (i.e., noise) that exists in the brain.</p>
-<h3>Nonlinear mixed selectivity</h3>
-<p>With Stephanie Palmer and Dave Freedman, I showed that conjunctive nonlinear
-mixed selectivity produces metabolically efficient and reliably decoded
-neural representations. That is, having single
-neurons that code for particular
-combinations of stimulus feature values (i.e., a mixed code) produces a
-representation of the stimuli that is more robust to noise than a
-representation that keeps those stimulus
-features separate (i.e., a pure code). In this work, we also outline several
-important tradeoffs between mixed codes that combine different numbers of
-distinct features, including required
-population sizes and optimal receptive field sizes in feature space. </p>
-<p>Due to the ubiquity of mixed codes, we believe this description of
-their reliability and its tradeoffs will provide important tools that can be
-used to understand the nature of representations across many different brain
-regions and even different kinds of brains. </p>
-<h4>Further materials</h4>
-<ol>
-<li><em>Paper:</em> <strong>W. Jeffrey Johnston</strong>, Stephanie E. Palmer,
-David J. Freedman. Nonlinear mixed selectivity supports reliable neural
-computation. |
-<a href="https://doi.org/10.1371/journal.pcbi.1007544">PLOS Computational Biology, 2020</a> |
-<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/image.pcbi.v16.i02">Cover</a></li>
-<li><em>Code:</em> Available in
-<a href="https://github.com/wj2/nms_error-correction">this repository</a>.</li>
-</ol>
-<h2>Distributed representations of multiple stimuli</h2>
-<p>I am broadly interested in how different brain regions interact with each other
-to construct representations of stimuli that are integrated across different
-sensory systems and processing streams. I am particularly interested in how
-this set of problems is solved in the presence of multiple stimuli, a condition
-which is understudied in both laboratory and theoretical settings. I believe
-that the
-distributed nature of information in the brain and the necessity of
-simultaneously representing
-variable numbers of stimuli are likely to both constrain neural representations
-in interesting ways.</p>
-<h3>Solving the assignment problem</h3>
-<p>An observer watching a barking dog and purring cat together in a field has
-distinct pairs of representations of the two animals in their visual and
-auditory systems. Without prior knowledge, how does the observer infer that the
-dog barks and the cat purrs? This binding of disparate representations is called
-the assignment problem, and it must be solved to integrate distinct
-representations across but also within sensory modalities. In my work on the
-assignment problem, I analyze perhaps the most straightforward solution: the
-representation of one or more common pieces of stimulus information in pairs of
-relevant brain regions -- for instance, in the example above,
-estimates of the spatial position of both the cat and the dog represented in
-both the visual and auditory systems. Proceeding from here, I describe a
-tradeoff between the frequency of assignment errors (e.g., the purring dog and
-barking cat) and the fidelity of stimulus representations within each region
-(e.g., the precision of the representation of the cat's face) that is mediated
-by a general tradeoff between redundancy and efficiency. Assignment errors
-reported in humans are
-broadly consistent with our model; we also make further, specific predictions
-that are yet to be tested.</p>
-<p>I am currently preparing a manuscript describing these results.</p>
-<h4>Further materials</h4>
-<ol>
-<li><em>Recent poster:</em> <strong>W. Jeffrey Johnston</strong> and David J. Freedman.
-Solutions to the assignment problem balance tradeoffs between local and
-catastrophic errors.
-| <a href="/research_materials/poster_assignment_cosyne2020.pdf">presented at COSYNE
-2020</a></li>
-</ol>
-<h3>Differences in dorsal and ventral stream representations of natural images</h3>
-<p>In my experimental work, I have recorded from the inferotemporal cortex (ITC),
-a region in the canonical ventral visual stream, and the lateral intraparietal
-area (LIP), a region in the canonical dorsal visual stream, during the
-performance of three natural image-based behavioral tasks. I am taking multiple
-approaches to analyze this rich set of data.</p>
-<p>As a first pass, I characterized
-the prevalence of single neuron tuning for different task and stimulus factors,
-and contrasted how the representation of these factors changes across different
-tasks. The results of some of these analyses are shown in the poster below.</p>
-<h4>Further materials</h4>
-<ol>
-<li><em>Recent poster:</em> <strong>W. Jeffrey Johnston</strong>, Krithika Mohan, and David J.
-Freedman.
-What goes where: Using stimulus representations from both visual streams to
-guide behavior.
-| <a href="/research_materials/poster_dvpltsdmst_sfn2018_ink.pdf">presented at SfN Neuroscience
-2018</a></li>
-</ol>
-<h3>Preferential engagement of LIP in trained tasks</h3>
-<p>In other experimental work, we directly compare the same population of neurons 
-in LIP during undirected free-viewing behavior and a highly trained and 
-directed task. While the animal's physical behavior and behavioral markers of
-engagement are very similar across the two contexts, LIP's apparent engagement is
-markedly different. In particular, LIP appears to be preferentially involved in
-stimulus selection during the highly trained task, and much less involved when the
-animal is allowed to freely choose which stimulus to attend to. We connect this
-to other work in LIP showing extensive changes in neural representations due to
-task training. In the context of those results, we argue that LIP may be 
-preferentially engaged in highly trained and reward-motivated behaviors, but less
-involved in unconstrained, exploratory behavior.</p>
-<p>I am currently preparing a manuscript describing these results. </p>
+    <p>For the most up-to-date publication list, please visit my 
+<a href="https://scholar.google.com/citations?user=xz_4ws0AAAAJ&amp;hl=en">Google Scholar page</a>.</p>
+<h3>The emergence of abstract representations</h3>
+<p>We show that training feedforward neural networks to perform multiple tasks
+(here, linear and somewhat nonlinear classifications of a set of latent 
+variables) leads to the emergence of representations that provide good 
+generalization properties for novel tasks (i.e., abstract representations).  </p>
+<ul>
+<li><strong>Johnston WJ</strong>, Fusi S (2021) Abstraction emerges naturally in networks 
+  trained to perform multiple tasks. 
+  <a href="https://doi.org/10.1101/2021.10.20.465187">bioRxiv</a>  </li>
+</ul>
+<h3>Robustness in neural codes</h3>
+<p>We show that neural representations can be made more reliable by using 
+the higher dimensional codes produced by nonlinear mixed selectivity. We 
+further show that these benefits hold for reasonable numbers of neurons and 
+that nonlinear mixed selectivity is present in the lateral intraparietal area
+when it is not necessary to support flexible behavior, but would increase
+robustness.  </p>
+<ul>
+<li><strong>Johnston WJ</strong>, Palmer SE, Freedman DJ (2020) Nonlinear mixed selectivity
+produces noise- tolerant neural representations. 
+<a href="https://doi.org/10.1371/ journal.pcbi.1007544">PLOS Computational Biology</a>  </li>
+</ul>
+<h3>The assignment problem</h3>
+<p>Here, we explore how the brain can make sense of the
+different representations of the same objects that arise from distinct sensory
+systems -- that is, how do we assign sounds to visual representations of their 
+sources? In the case of integrating sights with 
+sounds, both sensory systems develop an estimate of the spatial position of
+the source: we show that this redundancy can be used to correctly assign the two 
+sets of percepts to each other. We also show how likely it is to fail, and how
+changing the amount and kind of overlapping information changes the reliability 
+of assignment.  </p>
+<ul>
+<li><strong>Johnston WJ</strong>, Freedman DJ (in preparation) Solutions to the assignment problem 
+     balance tradeoffs between local and catastrophic errors.  </li>
+</ul>
+<h3>Directed and undirected tasks</h3>
+<p>We compare recordings from the primate lateral intraparietal area (LIP) 
+during directed and
+undirected visual stimulus selection. While the tasks do sharply differ in 
+reward contingencies and training history (the directed task has contingent 
+rewards and was learned by extensive training, the undirected task has no 
+reward contingency and was not trained), they both center on the same action: 
+a saccade selecting a natural image stimulus for overt attention. We show 
+that LIP appears to be preferentially involved in the directed task.
+This suggests that LIP's role in stimulus selection may be more restricted 
+than previously thought.  </p>
+<ul>
+<li><strong>Johnston WJ</strong>, Tetrick SM, Freedman DJ (in preparation) The lateral 
+   intraparietal area is preferentially engaged in directed tasks rather than 
+   undirected free behavior.  </li>
+</ul>
+<h3>Reproducibility</h3>
+<p>We attempted to replicate the findings from a sample of 100 previously 
+published studies in the psychology literature -- and from this generated an
+estimate of the replication rate of psychological science. I performed one of
+these replications as a member of the Open Science Collaboration.   </p>
+<ul>
+<li>Open Science Collaboration (2015) Estimating the reproducibility of 
+psychological science. <a href="https://doi.org/10.1126/science.aac4716">Science</a>  </li>
+<li>Open Science Collaboration (2012) An open, large-scale, collaborative effort
+to estimate the reproducibility of psychological science. 
+<a href="https://doi.org/10.1177/1745691612462588">Perspectives on Psychological Science</a></li>
+</ul>
 
   </div>
         <footer id="contentinfo" class="footer">
