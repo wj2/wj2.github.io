@@ -46,11 +46,29 @@ robustness.  </p>
 produces noise- tolerant neural representations. 
 <a href="https://doi.org/10.1371/journal.pcbi.1007544">PLOS Computational Biology</a>  </li>
 </ul>
-<h3>The assignment problem</h3>
-<p>Here, we explore how the brain can make sense of the
-different representations of the same objects that arise from distinct sensory
-systems -- that is, how do we assign sounds to visual representations of their 
-sources? In the case of integrating sights with 
+<h3>Coding difficulties for multiple stimuli</h3>
+<p>At a given time, the brain is receiving multiple different kinds of information 
+about multiple different objects that are out in the world. How does it make 
+sense of it all? </p>
+<p>First, animals must bind distinct objects together -- this is referred to as 
+the <em>binding problem</em>.
+In collaborative work with Justin Fine and Ben Hayden, we argue that the reward 
+value associated with offers in a risky gambling task performed by monkeys
+is bound to its spatial location through the use of semi-orthogonal subspaces.
+In particular, we show that the different neural subspaces used to encode the
+value of left and right offers are sufficiently orthogonal to produce reliable 
+binding and, later, decoding of offer value. However, we also show that the
+subspaces are parallel enough to allow for some generalization of the code for
+value from one spatial location to another. We argue that this commonality may 
+be important for efficient learning. </p>
+<ul>
+<li>Fine JM, <strong>Johnston WJ</strong>, Yoo SBM, Ebitz RB, Hayden BY (2022) Subspace 
+  orthogonalization as a mechanism for binding values to space. 
+  <a href="https://doi.org/10.48550/arXiv.2205.06769">arXiv</a></li>
+</ul>
+<p>Next, the animal must integrate across distinct sensory systems -- or distinct
+representations of the same set of objects. This is referred to as the 
+<em>assignment problem</em>. For exmaple, in the case of integrating sights with 
 sounds, both sensory systems develop an estimate of the spatial position of
 the source: we show that this redundancy can be used to correctly assign the two 
 sets of percepts to each other. We also show how likely it is to fail, and how
