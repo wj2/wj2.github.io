@@ -1,4 +1,11 @@
+/* MAIN PAGES */
+@page {
+    /* REPLACE HERE */
+    size: 11in 8.5in;
+    margin: -.3cm;
+}
 
+/* COMMON PROPERTIES */
 /* Title */
 h1 {
     font-style: italic;
@@ -8,9 +15,14 @@ h1 {
 a {
     text-decoration: none;
     font-style: italic;
-    font-weight: normal;
-    color: rgb(20, 20, 20);
+    text-decoration: underline;
+    font-weight: bold;
+    color: inherit; 
     display: inline-block;
+}
+
+hr {
+    color: inherit;
 }
 
 body.flower_page {
@@ -33,6 +45,10 @@ body.org_page {
     max-width: 420pt;
     min-height: 80vh;
     position: relative;
+}
+
+body.org_page a {
+    color: rgb(100, 100, 255);
 }
 
 body.org_page p {
@@ -76,6 +92,7 @@ div.wi_horizontal_page {
     width: 11in;
     border-style: solid;
     border-width: 3px;
+    border-color: black;
     background-position: center;
     margin-left: 0%;
     margin-right: 0%;
@@ -110,6 +127,7 @@ div.flower_box{
     padding: .1in;
     border-style: solid;
     border-width: 3px;
+    border-color: black;
     position: absolute;
     bottom: 0in;
 }
